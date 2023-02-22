@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>registration_1</title>
+  </head>
+
+  <body>
+    <div style="width: 100%;">
+      <p style="margin-top: 14px;">
+        Введите что-нибудь в поле ввода для поиска по должности:
+      </p>
+      <input id="searhInput" type="text" placeholder="Поиск.." />
+      <br /><br />
+      <table class="table table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Должность</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="rawTable"></tbody>
+      </table>
+    </div>
+
+    <div style="width: 100%;">
+      <p style="margin-top: 14px;">Список выбранных профессий:</p>
+      <table class="table table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Должность</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="preparedTable"></tbody>
+      </table>
+      <button name="saveButton" type="submit">
+        Сохранить изменения
+      </button>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
