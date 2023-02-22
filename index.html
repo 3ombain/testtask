@@ -3,20 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <title>registration_1</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+    <title>testtask</title>
   </head>
 
   <body>
-    <div style="width: 100%;">
-      <p style="margin-top: 14px;">
+    <div>
+      <p>
         Введите что-нибудь в поле ввода для поиска по должности:
       </p>
+      <div class="search_wraper">
       <input id="searhInput" type="text" placeholder="Поиск.." />
+      </div>
       <br /><br />
       <table class="table table-striped table-bordered table-hover">
         <thead>
@@ -30,8 +31,8 @@
       </table>
     </div>
 
-    <div style="width: 100%;">
-      <p style="margin-top: 14px;">Список выбранных профессий:</p>
+    <div>
+      <p>Список выбранных профессий:</p>
       <table class="table table-striped table-bordered table-hover">
         <thead>
           <tr>
@@ -42,9 +43,11 @@
         </thead>
         <tbody id="preparedTable"></tbody>
       </table>
+      <div class="saveButton">
       <button name="saveButton" type="submit">
         Сохранить изменения
       </button>
+      </div>
     </div>
 
     <script

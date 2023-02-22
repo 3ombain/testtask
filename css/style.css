@@ -1,0 +1,115 @@
+*{
+    padding: 0; margin: 0;    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    line-height: 1.5;
+    font-size: 1rem;
+    background: #FAFAFA;
+}
+
+body div{
+    width: 1000px;
+    margin:0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+body div p{
+    margin:15px auto;
+    line-height: 3rem;
+    font-size: 2rem;
+}
+
+.search_wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 41px;
+    border: 1px solid #4763E480;
+    border-radius: 10px;
+    background: #FFFFFF;
+    outline: none;
+    margin:0 auto; 
+}
+.search_wraper input{
+    display: flex;
+    width: 950px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+thead th:nth-child(1) {
+    text-align: center;
+    width: 50px;
+}
+
+tbody td:nth-child(1) {
+    text-align: center;
+    width: 50px;
+}
+
+thead th:nth-child(2) {
+    text-align: center;
+    width: 600px;
+}
+
+tbody td:nth-child(2) {
+    text-align: center;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+tbody td:nth-child(3) {
+    text-align: center;
+    width: 350px;
+}
+
+tbody td button {
+    color: #FFFFFF;    
+    width: 130px;
+    height: 25px;
+    box-sizing: border-box;
+    background: #4256D0;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.saveButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.saveButton button{
+    color: #FFFFFF;    
+    width: 200px;
+    height: 35px;
+    box-sizing: border-box;
+    background: #505153;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+tbody td span {
+    color: #cf0d0d; 
+}
+
+body div:nth-child(2) tr:nth-child(even) td:nth-child(2){
+    text-align: center;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start
+}
